@@ -45,7 +45,7 @@ def hammer(update: Update, _: CallbackContext) -> None:
     message_text = update.message.text
 
     for word in bad_words:
-        if message_text.find(word) != -1:
+        if message_text.lower().find(word) != -1:
             update.message.reply_text("🔨😠", reply_to_message_id=message_id)
             return
 
