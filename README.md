@@ -15,3 +15,9 @@ When the hammer read a `bad word`, it hammers the message to death.
 | :-                | :-:                              | -:                                              |
 | `/help`, `/start` | **Fear the rage of the hammer!** | _Fear the rage of the hammer_                   |
 | `/hammer`         | :hammer::angry:                  | _Only a fool could looks for the hammer's rage_ |
+
+
+## todos
+
+- [ ] admins can add bad words at runtime
+- [ ] per user stats
