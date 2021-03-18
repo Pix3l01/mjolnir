@@ -33,7 +33,7 @@ def start(update: Update, _: CallbackContext) -> None:
 
 
 def hammer_cmd(update: Update, _: CallbackContext) -> None:
-    """Only fools could looks for the hammer's rage"""
+    """Only a fool could looks for the hammer's rage"""
 
     update.message.reply_text("🔨😠", reply_to_message_id=update.message.message_id)
 
