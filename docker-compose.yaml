@@ -1,0 +1,8 @@
+services:
+  mjolnir:
+    image: mjolnir
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./src/bad_words.txt:/app/bad_words.txt
