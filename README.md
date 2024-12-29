@@ -4,7 +4,7 @@
 
 ## What does it do?
 
-When the hammer read a `bad word`, it hammers the message to death.
+When the hammer reads a `bad word`, it hammers the message to death.
 
 `bad words` are stored in `bad_words.txt`
 
